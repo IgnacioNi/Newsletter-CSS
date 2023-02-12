@@ -1,0 +1,51 @@
+.caixa{
+    border: 1px solid #e9ecef;
+    border-radius: 5px;
+    padding: 20px 50px;
+    background-color: #f8f9fa;
+    line-height: 35px;
+    font-size: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    background-color: #e0e4e8;
+    border: none;
+    padding: 5px 50px;
+    border-radius: 5px;
+}
+
+input:hover{
+    background-color: rgb(207, 208, 219);
+    transition-duration: 500ms;
+    transition-delay: 0ms;
+    border: none;
+    cursor: pointer;
+}
+
+input:focus{
+    background-color: #FFFF;
+    border: solid black;
+    outline: transparent;
+}
+
+button{
+    margin-top: 10px;
+    background-color: #1971c2;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 100px;
+    color: white;
+}
+
+button:hover{
+    background-color: #11589b;
+    transition: 500ms;
+    transition-delay: 0ms;
+    transition-timing-function: linear;
+    cursor: pointer;
+}
